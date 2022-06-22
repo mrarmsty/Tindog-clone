@@ -1,0 +1,212 @@
+body {
+    font-family: "Ubuntu";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Ubuntu";
+}
+#title{
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+p{
+    color: #8f8f8f; 
+}
+
+
+/* sections    */
+
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+
+/* big-heading */
+
+
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/* navigation bar */
+
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 100px;
+}
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* title download button */
+
+
+.first-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+
+.title-image{
+    width:22%;
+    transform:rotate(25deg);
+    position: absolute;
+}
+
+
+/* features section */
+
+
+#features{
+   padding-top: 3rem;
+   position: relative;
+}
+.kings{
+padding-right: 1.6rem;
+margin-bottom: 4rem;
+}
+.king{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.king:hover{
+    color: #ff4c68;
+}
+.prince{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+
+/* testimonial section */
+
+
+#testimonials{
+    background-color:#ef8172;
+}
+.carousel-text{
+    font-weight: 6rem;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+   }
+.second-dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* press section */
+
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+   .leg{
+       margin-top: 40px;
+   }
+
+
+   /* pricing */
+
+
+   .leg{
+    margin-top: 40px;
+}
+
+   #pricing{
+          padding: 100px;
+   }
+   .column-pricing{
+       padding: 3% 2%;
+   }
+   .section-heading{
+       font-weight: bold;
+       font-weight: 6rem;
+    line-height: 1.5;
+   }
+   #btn-last{
+      width: 100%;
+   }
+   .sign-up-button{
+    margin-top: 40px;
+}
+
+
+   /* cta section */
+
+
+.call-to{
+   padding: 10px auto 60px;
+}
+.cta-h{
+    font-family: "Ubuntu";
+    padding: 40px auto 10%;
+   font-weight: bolder;
+   font-size: 300%;
+   line-height: 1.5;
+}
+.call-t-btn{
+    margin: 3% 1.5% 2.5%;
+   
+}
+
+
+ /* footer section */
+
+
+ .foot{
+     margin: 5% 1.5% 2%;
+ }
+ .ico{
+     padding: 1px 20px 20px;
+ }
+ .icony{
+     padding-right:25px;
+ }
+
+ 
+   @media (max-width:1028px) {
+
+    .title-image{
+       width: 60%;
+      transform: none;
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+}
